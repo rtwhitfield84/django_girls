@@ -1,6 +1,7 @@
-myvenv/
-__pycache__/
-*.py[cod]
-*$py.class
-**/.DS_Store
-*.sqlite3
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
