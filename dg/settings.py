@@ -26,7 +26,7 @@ SECRET_KEY = 'c09k4_(m($#g18tuam9k(9r18*jj%9xe6dw)g5-b!(cue&fy#s'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+# '127.0.0.1:8000', '.pythonanywhere.com'
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -118,3 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
