@@ -26,7 +26,6 @@ SECRET_KEY = 'c09k4_(m($#g18tuam9k(9r18*jj%9xe6dw)g5-b!(cue&fy#s'
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '.pythonanywhere.com']
-# '127.0.0.1:8000', '.pythonanywhere.com'
 
 # Application definition
 
@@ -120,3 +119,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
